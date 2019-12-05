@@ -52,6 +52,9 @@ var isDuplicate = function(array, value) {
 // Input: [1,1,1,3,3,4,3,2,4,2]
 // Output: true
 
-let nums = [1, 2, 3, 4]
-let answer = containsDuplicate(nums)
-console.log(answer);
+
+// let nums = [1, 2, 3, 4]
+// let answer = containsDuplicate(nums)
+// console.log(answer);
+
+module.exports = containsDuplicate
