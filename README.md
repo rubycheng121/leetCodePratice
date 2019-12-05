@@ -1,0 +1,2 @@
+# leetCodePratice
+A practicing repository
