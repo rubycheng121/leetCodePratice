@@ -33,7 +33,8 @@ var plusOne = function(digits) {
     return digits
 };
 
-let digits = [2, 4, 9, 3, 9]
-let answer = plusOne(digits)
+module.exports = plusOne
+    // let digits = [2, 4, 9, 3, 9]
+    // let answer = plusOne(digits)
 
-console.log(answer);
+// console.log(answer);

@@ -52,7 +52,9 @@ var intersect = function(nums1, nums2) {
     return findInArray2(nums1, nums2)
 };
 
-let nums2 = [1, 1, 1, 1, 2, 3]
-let nums1 = [1, 1, 3]
-let answer = intersect(nums1, nums2)
-console.log(answer);
+// let nums2 = [1, 1, 1, 1, 2, 3]
+// let nums1 = [1, 1, 3]
+// let answer = intersect(nums1, nums2)
+// console.log(answer);
+
+module.exports = intersect

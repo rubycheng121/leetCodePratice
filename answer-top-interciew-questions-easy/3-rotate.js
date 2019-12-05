@@ -23,13 +23,14 @@ var rotate = (nums, k) => {
             nums[j] = nums[j - 1]
         }
         nums[0] = tmp
-        console.log('rotate ' + (i + 1) + ' steps to the right: [' + nums + ']');
+            // console.log('rotate ' + (i + 1) + ' steps to the right: [' + nums + ']');
 
     }
     return nums
 };
 
 
-let nums = [-1, -100, 3, 99]
-let k = 2
-let answer = rotate(nums, k)
+// let nums = [-1, -100, 3, 99]
+// let k = 2
+// let answer = rotate(nums, k)
+module.exports = rotate

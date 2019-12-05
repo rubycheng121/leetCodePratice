@@ -1,5 +1,6 @@
 var assert = require('assert');
-let fun = require('../containDuplicate')
+let fun = require('../../../answer-top-interciew-questions-easy/4-containDuplicate')
+
 describe('Array ', function() {
     describe('should return true when the array existing duplicate numbers', function() {
         it('#Input: [1,2,3,1] , Output: true', function() {

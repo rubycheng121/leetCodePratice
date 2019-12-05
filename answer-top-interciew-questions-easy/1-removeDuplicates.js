@@ -36,38 +36,13 @@ var removeDuplicates = function(nums) {
         }
 
     }
-    console.log(nums);
+    // console.log(nums);
+    return nums
 };
 
 
 
-let standarAnswer = (nums) => {
-    if (nums.length == 0) return 0
-    let pointer = 0
-    for (let i = 1; i < nums.length; i++) {
-        if (nums[i] != nums[pointer]) {
-            pointer++
-            nums[pointer] = nums[i]
-
-        }
-    }
-
-    return pointer + 1
-};
-
-var otherAnswer = function(nums) {
-    let i = 0;
-    for (let j = 0; j < nums.length; j++) {
-        if (nums[j] != nums[i])
-            nums[++i] = nums[j];
-    }
-    console.log(nums);
-
-    return ++i;
-};
-
-
-let nums = [1, 0, 0, 2, 2, 8, 3, 4, 3, 1, 1]
-    // removeDuplicates(nums)
-let r = otherAnswer(nums)
-console.log(r);
+module.exports = removeDuplicates
+let nums = [1, 1, 2]
+let r = removeDuplicates(nums)
+    // console.log(r);

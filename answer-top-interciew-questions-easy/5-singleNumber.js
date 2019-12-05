@@ -10,7 +10,8 @@ var singleNumber = function(nums) {
     return num;
 }
 
+module.exports = singleNumber
 
-let nums = [2, 2, 1]
-let answer = singleNumber(nums)
-console.log(answer);
+// let nums = [2, 2, 1]
+// let answer = singleNumber(nums)
+// console.log(answer);

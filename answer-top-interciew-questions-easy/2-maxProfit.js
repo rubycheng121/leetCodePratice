@@ -19,4 +19,5 @@ var maxProfit = function(prices) {
 
 let input = [1, 2, 3, 4, 5]
 let answer = maxProfit(input)
-console.log(answer);
+module.exports = maxProfit
+    // console.log(answer);
